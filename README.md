@@ -14,7 +14,7 @@ ITE.py contains all the estimators for ITE estimation and run_ITE has functions 
 
 For Average Treatment Effect, the relevant files are run_ATE.py and ATE.py.
 
-In ATE.py we use the implementation of Gram-Schmidt-Walk as given by Harshaw et al (2019). This requires installation of Julia. You can comment out this part in main.py file if it fails to run. More instructions are available here: https://github.com/crharshaw/GSWDesign.jl
+In ATE.py we use the implementation of Gram-Schmidt-Walk as given by Harshaw et al (2019). This requires installation of Julia. More instructions are available here: https://github.com/crharshaw/GSWDesign.jl
 
 The data generating mechanism is implemented in data.py. We have collected the datasets in the folder -- datasets/
 
